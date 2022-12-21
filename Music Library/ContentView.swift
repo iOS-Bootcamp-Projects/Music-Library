@@ -82,7 +82,8 @@ struct SongsView: View {
                 Spacer()
                 Text(song.duration)
             }
-        }
+        }.padding(.horizontal,-20)
+            
     }
 }
 struct ArtistsView: View {
